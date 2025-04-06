@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hy">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -22,6 +22,97 @@
       color: #1a1a1a;
       line-height: 1.6;
       position: relative;
+    }
+
+    /* Font size utility classes */
+    .text-xs {
+      font-size: 0.75rem; /* 12px */
+    }
+
+    .text-sm {
+      font-size: 0.875rem; /* 14px */
+    }
+
+    .text-base {
+      font-size: 1rem; /* 16px */
+    }
+
+    .text-lg {
+      font-size: 1.125rem; /* 18px */
+    }
+
+    .text-xl {
+      font-size: 1.25rem; /* 20px */
+    }
+
+    .text-2xl {
+      font-size: 1.5rem; /* 24px */
+    }
+
+    .text-3xl {
+      font-size: 1.875rem; /* 30px */
+    }
+
+    .text-4xl {
+      font-size: 2.25rem; /* 36px */
+    }
+
+    .text-5xl {
+      font-size: 3rem; /* 48px */
+    }
+
+    .text-6xl {
+      font-size: 3.75rem; /* 60px */
+    }
+
+    /* Font weight utility classes */
+    .font-light {
+      font-weight: 300;
+    }
+
+    .font-normal {
+      font-weight: 400;
+    }
+
+    .font-medium {
+      font-weight: 500;
+    }
+
+    .font-semibold {
+      font-weight: 600;
+    }
+
+    .font-bold {
+      font-weight: 700;
+    }
+
+    .font-extrabold {
+      font-weight: 800;
+    }
+
+    /* Line height utility classes */
+    .leading-none {
+      line-height: 1;
+    }
+
+    .leading-tight {
+      line-height: 1.25;
+    }
+
+    .leading-snug {
+      line-height: 1.375;
+    }
+
+    .leading-normal {
+      line-height: 1.5;
+    }
+
+    .leading-relaxed {
+      line-height: 1.625;
+    }
+
+    .leading-loose {
+      line-height: 2;
     }
 
     /* Layout */
@@ -133,18 +224,6 @@
     }
 
     /* Typography */
-    .text-xl {
-      font-size: 1.25rem;
-    }
-
-    .text-3xl {
-      font-size: 1.875rem;
-    }
-
-    .font-bold {
-      font-weight: 700;
-    }
-
     .text-gray-700 {
       color: #4b5563;
     }
@@ -570,15 +649,123 @@
       .md\:p-8 {
         padding: 2rem;
       }
+      
+      .md\:text-xs {
+        font-size: 0.75rem; /* 12px */
+      }
+      
+      .md\:text-sm {
+        font-size: 0.875rem; /* 14px */
+      }
+      
+      .md\:text-base {
+        font-size: 1rem; /* 16px */
+      }
+      
+      .md\:text-lg {
+        font-size: 1.125rem; /* 18px */
+      }
+      
+      .md\:text-xl {
+        font-size: 1.25rem; /* 20px */
+      }
+      
+      .md\:text-2xl {
+        font-size: 1.5rem; /* 24px */
+      }
+      
+      .md\:text-3xl {
+        font-size: 1.875rem; /* 30px */
+      }
+      
+      .md\:text-4xl {
+        font-size: 2.25rem; /* 36px */
+      }
+      
+      .md\:text-5xl {
+        font-size: 3rem; /* 48px */
+      }
+      
+      .md\:text-6xl {
+        font-size: 3.75rem; /* 60px */
+      }
     }
 
     @media (min-width: 1024px) {
       .lg\:p-12 {
         padding: 3rem;
       }
+      
+      .lg\:text-xs {
+        font-size: 0.75rem; /* 12px */
+      }
+      
+      .lg\:text-sm {
+        font-size: 0.875rem; /* 14px */
+      }
+      
+      .lg\:text-base {
+        font-size: 1rem; /* 16px */
+      }
+      
+      .lg\:text-lg {
+        font-size: 1.125rem; /* 18px */
+      }
+      
+      .lg\:text-xl {
+        font-size: 1.25rem; /* 20px */
+      }
+      
+      .lg\:text-2xl {
+        font-size: 1.5rem; /* 24px */
+      }
+      
+      .lg\:text-3xl {
+        font-size: 1.875rem; /* 30px */
+      }
+      
+      .lg\:text-4xl {
+        font-size: 2.25rem; /* 36px */
+      }
+      
+      .lg\:text-5xl {
+        font-size: 3rem; /* 48px */
+      }
+      
+      .lg\:text-6xl {
+        font-size: 3.75rem; /* 60px */
+      }
     }
 
     @media (max-width: 640px) {
+      .sm\:text-xs {
+        font-size: 0.75rem; /* 12px */
+      }
+      
+      .sm\:text-sm {
+        font-size: 0.875rem; /* 14px */
+      }
+      
+      .sm\:text-base {
+        font-size: 1rem; /* 16px */
+      }
+      
+      .sm\:text-lg {
+        font-size: 1.125rem; /* 18px */
+      }
+      
+      .sm\:text-xl {
+        font-size: 1.25rem; /* 20px */
+      }
+      
+      .sm\:text-2xl {
+        font-size: 1.5rem; /* 24px */
+      }
+      
+      .sm\:text-3xl {
+        font-size: 1.875rem; /* 30px */
+      }
+      
       .text-3xl {
         font-size: 1.5rem;
       }
@@ -676,7 +863,7 @@
         <div class="w-full max-w-4xl mx-auto">
           <!-- Home Page -->
           <div id="home-page" class="page-content active">
-            <h1 class="text-3xl font-bold text-center mb-8 no-underline">CCNA & Cybersecurity</h1>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 no-underline">CCNA & Cybersecurity</h1>
             
             <!-- Card Container -->
             <div id="card-container"></div>
@@ -689,7 +876,7 @@
           
           <!-- Updates Page -->
           <div id="updates-page" class="page-content">
-            <h1 class="text-3xl font-bold text-center mb-8 no-underline">Վերջին թարմացումներ</h1>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 no-underline">Վերջին թարմացումներ</h1>
             
             <!-- Updates Container -->
             <div id="updates-container">
@@ -708,7 +895,7 @@
     <!-- Footer -->
     <footer>
       <div class="container mx-auto px-4 text-center text-gray-700">
-        <p> Copyright © 2025 | Aria Network | All rights reserved.</p>
+        <p class="text-sm md:text-base"> Copyright © 2025 | Aria Network | All rights reserved.</p>
       </div>
     </footer>
   </div>
@@ -718,12 +905,12 @@
     const posts = [
       {
         id: 1,
-        title: "Ինչ է Web Application Firewall-ը",
-        contentTitle: "Ինչ է Web Application Firewall-ը",
-        paragraph1: "Web Application Firewall-ը (WAF) անվտանգության գործիք է, որը զտում, վերահսկում և պաշտպանում է HTTP/HTTPS տրաֆիկը վեբ հավելվածների և վեբ ծառայությունների միջև:",
-        paragraph2: "WAF-ը կարող է պաշտպանել վեբ հավելվածները տարբեր հարձակումներից, ինչպիսիք են SQL ներարկումը, XSS (Cross-site scripting), ֆայլերի ներառումը և այլն:",
-        paragraph3: "Ի տարբերություն սովորական ցանցային firewall-ի, WAF-ը կենտրոնանում է հատուկ վեբ հավելվածների վրա և կարող է վերլուծել HTTP/HTTPS հաղորդակցությունը ավելի խորը մակարդակում:",
-        paragraph4: "WAF-ը կարող է տեղադրվել որպես ապարատային սարք, սերվերի վրա տեղադրված ծրագրային ապահովում կամ որպես ամպային ծառայություն:",
+        title: "Շաատ շուտով",
+        contentTitle: "Շուտով հասանելի կլինի Aria Network կայքը",
+        paragraph1: "Aria Network կայքում կարող եք ընթերցել հայերեն բացատրությամբ՝ Cisco-ի, Ցանցերի, Կիբեռանվտանգության և Սերվերային համակարգերի վերաբերյալ տեղեկատվություն։",
+        paragraph2: "Կայքը գտնվում է նախագծման փուլում։",
+        paragraph3: "Հայցում ենք Ձեր ներողամտությունը, ուշացման և սպասման համար։",
+        paragraph4: "Հարգանքով՝ Aria Development Group:",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Network-cables-1.png/1200px-Network-cables-1.png"
       }
     ];
@@ -734,12 +921,12 @@
         id: 1,
         title: "Մոբայլ տարբերակի լիէկրան ռեժիմի թարմացում",
         date: "6 Ապրիլ 2025",
-        content: "Թարմացրել ենք մոբայլ տարբերակի լիէկրան ռեժիմի գործառույթը։",
+        content: "Թարմացվել է մոբայլ տարբերակի լիէկրան ռեժիմի գործառույթը։",
         timestamp: new Date(2025, 3, 6) // Ապրիլ 3, 2025
       },
       {
         id: 2,
-        title: "Թարմացրել ենք քարտի դիզայնը",
+        title: "Թարմացվել է քարտի դիզայնը",
         date: "3 Ապրիլ 2025",
         content: "Քարտերի նոր ընդլայնվող գործառույթը թույլ է տալիս կարդալ բովանդակությունը՝ առանց էջից դուրս գալու:",
         timestamp: new Date(2025, 3, 3) // Ապրիլ 3, 2025
@@ -748,21 +935,21 @@
         id: 3,
         title: "Ավելացվել է քարտի լիէկրան գործառույթը",
         date: "1 Ապրիլ 2025",
-        content: "Ավելացրել ենք քարտում լիէկրան գործառույթը, որպեսզի լիէկրան ընթերցելը, լինի էլ ավելի հարմար։",
+        content: "Ավելացվել է քարտում լիէկրան գործառույթը, որը թույլ է տալիս ընթերցել լիէկրան ռեժիմով։",
         timestamp: new Date(2025, 3, 1) // Ապրիլ 2, 2025
       },
       {
         id: 4,
         title: "Ավելացվել է որոնման գործառույթը",
         date: "30 Մարտ 2025",
-        content: "Այժմ կարող եք փնտրել նախընտրելի հրապարակումը ըստ վերնագրի՝ օգտագործելով վերնագրի որոնման տողը: Սա հեշտացնում է գտնել ձեր փնտրած բովանդակությունը:",
+        content: "Այժմ կարող եք որոնել նախընտրելի հրապարակումը ըստ վերնագրի՝ օգտագործելով վերնագրի որոնման տողը:",
         timestamp: new Date(2025, 2, 30) // Մարտ 30, 2025
       },
       {
         id: 5,
         title: "Ավելացվել է բջջային սարքերով ընթերցելու գործառույթը",
         date: "25 Մարտ 2025",
-        content: "Մենք զգալի բարելավումներ ենք կատարել բջջային սարքերով մեր կայքի ցուցադրման հարցում: Այժմ այն պետք է անխափան աշխատի բոլոր սարքերի էկրանների չափսերի համար:",
+        content: "Այժմ կարող եք ընթերցել ցանկացած բջջային սարքով:",
         timestamp: new Date(2025, 2, 25) // Մարտ 25, 2025
       }
     ];
@@ -1169,7 +1356,7 @@
       card.innerHTML = `
         <div class="card-header">
           <div class="card-title-container">
-            <h2 class="card-title">${post.title}</h2>
+            <h2 class="card-title text-xl md:text-2xl">${post.title}</h2>
           </div>
           <button class="fullscreen-btn" id="fullscreen-btn" title="Toggle fullscreen">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1182,11 +1369,11 @@
         </div>
         <div class="card-content">
           <div class="card-content-expanded" id="content-${post.id}">
-            <h3 class="card-content-title">${post.contentTitle}</h3>
-            <p class="card-paragraph">${post.paragraph1}</p>
-            <p class="card-paragraph">${post.paragraph2}</p>
-            <p class="card-paragraph">${post.paragraph3}</p>
-            <p class="card-paragraph">${post.paragraph4}</p>
+            <h3 class="card-content-title text-lg md:text-xl">${post.contentTitle}</h3>
+            <p class="card-paragraph text-base md:text-lg">${post.paragraph1}</p>
+            <p class="card-paragraph text-base md:text-lg">${post.paragraph2}</p>
+            <p class="card-paragraph text-base md:text-lg">${post.paragraph3}</p>
+            <p class="card-paragraph text-base md:text-lg">${post.paragraph4}</p>
           </div>
         </div>
         <div class="card-footer">
@@ -1386,10 +1573,10 @@
         
         updateCard.innerHTML = `
           ${isNew ? '<span class="new-label">Նոր</span>' : ''}
-          <h3 class="update-title">${update.title}</h3>
-          <p class="update-date">${update.date}</p>
+          <h3 class="update-title text-lg md:text-xl">${update.title}</h3>
+          <p class="update-date text-sm md:text-base">${update.date}</p>
           <div class="update-content">
-            <p>${update.content}</p>
+            <p class="text-base md:text-lg">${update.content}</p>
           </div>
         `;
         
